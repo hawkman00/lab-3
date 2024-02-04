@@ -1,4 +1,4 @@
-# dldspring2023
+# dldspring2024
 
 <pre>
 Nate Lannan
@@ -7,7 +7,7 @@ Oklahoma State University
 School of Electrical and Computer Engineering
 </pre>
 
-Respository for ECEN 3233 Digital Logic Design at Oklahoma State University for the Fall 2022 semester!
+Respository for ECEN 2233 Fundamentals of Digital Logic Design at Oklahoma State University for the Spring 2024 semester!
 
 **Due Dates:**<br/>
 

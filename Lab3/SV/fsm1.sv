@@ -32,16 +32,16 @@ module FSM (clk, reset, CL, y);
           nextstate <= S4;
         else if ((~L)&(R))
         nextstate <= S7;
-        else 
-        nextstate <= S0;
+        else ((~L)&(~R))
+        nextstate <=S0;
        end
        
        S1: begin
-        y <= 6'b001_000;
+          y <= 6'b001_000;
           nextstate <= S2;
        end
        S2: begin
-        y <= 6'b011_000;
+        y < = 6'b011_000;
         nextstate <= S3;
        end
        S3: begin
@@ -72,10 +72,10 @@ module FSM (clk, reset, CL, y);
         y <= 6'b000_111;
         nextstate <= S0;
       end
-       //default: begin
-	  //y <= 6'b000_000;	  	  
-	  //nextstate <= S0;
-      // end
+       default: begin
+	  y <= 6'b000_000;	  	  
+	  nextstate <= S0;
+       end
      endcase
    
 endmodule

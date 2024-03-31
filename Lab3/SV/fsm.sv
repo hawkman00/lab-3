@@ -1,4 +1,4 @@
-module FSM (clk, reset, CL, y);
+111module FSM (clk, reset, CL, y);
 
    input logic  clk;
    input logic  reset;
@@ -61,11 +61,11 @@ module FSM (clk, reset, CL, y);
         nextstate <= S0;
         end
       S7: begin
-        y <= 6'b000_001;
+        y <= 6'b000_100;
         nextstate <= S8;
       end 
       S8: begin
-        y <= 6'b000_011;
+        y <= 6'b000_110;
         nextstate <= S9;
       end
       S9: begin

@@ -1,4 +1,4 @@
-111module FSM (clk, reset, CL, y);
+module FSM (clk, reset, CL, y);
 
    input logic  clk;
    input logic  reset;
